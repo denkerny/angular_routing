@@ -1,0 +1,14 @@
+.mainSizeDiv{
+    width: 500px;
+}
+
+.toSizeDiv{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.toSizeDiv img{
+    width: 100%;
+    height: 100%;
+}

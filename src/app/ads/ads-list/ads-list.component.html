@@ -1,0 +1,7 @@
+<p>Welcome to ads-list!</p>
+<div class="toSizeDiv" *ngFor="let ad of ads$ | async" [routerLink]="[ad.id]">
+    <p>{{ ad.id }}</p>
+    <p>{{ ad.name }}</p>
+    <p>{{ ad.sum }}</p>
+    <img src="{{ ad.img }}" alt="">
+</div>
